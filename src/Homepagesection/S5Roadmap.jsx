@@ -107,7 +107,7 @@ const Roadmap = () => {
                       data-aos="fade-up"
                       data-aos-delay="400"
                     >
-                      Phase 2: Token Launch (2024)
+                      Phase 1: Token Development and Launch (Q1 2025) (2024)
                     </p>
                     {/* List of steps */}
                     <div
@@ -706,33 +706,33 @@ const Roadmap = () => {
         </div>
         <div className="w-full pt-0.5 pb-0.5   bg-text-custom-gradient">
           <div
-            className="flex justify-between bg-black align-middle  phone:justify-center phone:gap-1  flex-wrap items-center gap-1 w-full overflow-x-auto px-24 tablet:px-12 phone:gap-5 phone:px-0 "
+            className="flex justify-center  md:justify-evenly bg-black align-middle    flex-wrap items-center gap-1 w-full overflow-x-auto   gap-10 sm:gap-5 md:gap-0 flex-wrap "
             id="img-section"
           >
             <img
               src={str1img}
               alt="Strategic Partner 1"
-              className="h-16 w-28 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+              className="h-16 w-28 sm:h-30 sm:w-30 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
             />
             <img
               src={str2img}
               alt="Strategic Partner 2"
-              className="h-16 w-28 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+              className="h-16 w-28 sm:h-30 sm:w-30 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
             />
             <img
               src={str3img}
               alt="Strategic Partner 3"
-              className="h-16 w-28 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+              className="h-16 w-28 sm:h-30 sm:w-30 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
             />
             <img
               src={str4img}
               alt="Strategic Partner 4"
-              className="h-16 w-28 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+              className="h-16 w-28 sm:h-30 sm:w-30 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
             />
             <img
               src={str5img}
               alt="Strategic Partner 4"
-              className="h-16 w-28 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+              className="h-16 w-28 sm:h-30 sm:w-30 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
             />
           </div>
         </div>

@@ -49,7 +49,7 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 z-10 gap-3 flex flex-col">
         <div className="flex flex-wrap justify-between items-center md:items-start w-full p-6  text-white z-10">
   {/* Left Section */}
-  <div className="flex flex-col gap-6 md:gap-4 max-w-full sm:max-w-[40%] md:max-w-[25%] text-left md:text-left tablet:text-center">
+  <div className="flex flex-col gap-6 md:gap-4 max-w-full  sm:max-w-[100%] pb-2 lg:max-w-[30%] text-center md:text-left tablet:text-center">
     <p>
       ORB is a secure, versatile cryptocurrency powering gaming, DeFi, e-commerce, and NFTs. 
       It seamlessly integrates into daily life, enabling rewards, payments, and digital innovation. 
@@ -57,14 +57,14 @@ const Footer = () => {
     </p>
 
     {/* Social Media Icons */}
-    <div className="flex justify-start tablet:justify-center space-x-3 md:space-x-6">
+    <div className="flex justify-center  tablet:justify-center md:justify-start space-x-3 md:space-x-6">
       <a href="/" target="_blank" rel="noopener noreferrer">
         <img src={footericon2} alt="Instagram" className="w-10 transition-transform hover:scale-110 duration-300" />
       </a>
       <a href="/" target="_blank" rel="noopener noreferrer">
         <img src={footericon7} alt="Telegram" className="w-10 transition-transform hover:scale-110 duration-300" />
       </a>
-      <a href="mailto:support@laststake.io" target="_blank" rel="noopener noreferrer">
+      <a href="mailto:support@or" target="_blank" rel="noopener noreferrer">
         <img src={footericon4} alt="Email" className="w-10 transition-transform hover:scale-110 duration-300" />
       </a>
       <a href="/" target="_blank" rel="noopener noreferrer">
