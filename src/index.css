@@ -1,0 +1,563 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: gilroy;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+
+  --w3m-accent-color: #f019de !important;
+  --w3m-accent-color:#41d3c5 !important ;
+  --w3m-background-color: #f019de  !important;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  
+
+}
+/* Global styles for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+@font-face {
+  font-family: 'gilroy';
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'gilroy';
+  font-weight: 500; /* Regular weight */
+  font-style: normal;
+  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'gilroy';
+  font-weight: 600; /* Regular weight */
+  font-style: normal;
+  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'gilroy';
+  font-weight: 700; /* Regular weight */
+  font-style: normal;
+  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Heavy.ttf.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium_Web';
+  font-weight: 400; /* Bold weight */
+  font-style: normal;
+  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium_Web';
+  font-weight: 500; /* Bold weight */
+  font-style: normal;
+  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium_Web';
+  font-weight: 600; /* Bold weight */
+  font-style: normal;
+  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium_Web';
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+
+
+
+h1 , h2,  h3 , h4 , h5  {
+  font-family: 'gilroy', sans-serif;
+  color: #C7C7C7; /* Paragraph color */
+  line-height: 1.6; /* Adjust line-height as needed */
+  word-spacing: 0.1em; /* Adjust word-spacing as needed */
+}
+             p {
+              font-family: 'Titillium_Web', sans-serif;
+              color: #C7C7C7; /* Paragraph color */
+              line-height: 1.6; /* Adjust line-height as needed */
+              word-spacing: 0.1em; /* Adjust word-spacing as needed */
+            }
+    
+
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+.header-background {
+  background-image: url('./assets/Image/homepagebg.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.header-background2 {
+  background-image: url('./assets/Image/homepagebg.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: contain;
+
+  background-repeat: no-repeat;
+}
+
+
+
+.roadmap-background {
+  background-image: url('./assets/bgroadmap.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: 50px; */
+ 
+}
+
+
+/* .header-background2 {
+  background-image: url('./assets/Image/bg2.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50px;
+ 
+} */
+
+
+.circle-background1 {
+  background-image: url('./assets/halfcircle.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+
+.circle-background2 {
+  background-image: url('./assets/line.png'); /* Webpack/Vite resolves this path automatically */
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+
+ 
+}
+
+
+.token-background2 {
+  background-image: url('./assets/Newfolder/token2.webp'); /* Webpack/Vite resolves this path automatically */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+
+
+
+.scroll-container {
+  scroll-behavior: smooth; /* Smooth scrolling */
+  overflow-x: auto;
+  display: flex;
+}
+
+
+
+/* presale coming sonn */
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+    float: right;
+  }
+}
+
+.animate-load {
+  animation: load 3s linear infinite;
+  animation-delay: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+.border-gradient-purple {
+  border-image-source: conic-gradient(from 90deg, #ED00FF 0%, #00E1FF 37%, #FEAB1D 57%, #ED00FF 100%);
+}
+.border-gradient-green {
+  border-image-source: linear-gradient(150deg, #fff0 0%, #ffffffe5 52% ,  #fff0 98%);
+}
+
+
+/* contract */
+.border-gradient-two {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 10px;
+}
+.border-gradient-red {
+  border-image-source: linear-gradient(90deg, rgba(254, 171, 29, 0.5) 0%, rgba(237, 0, 255, 0.5) 50%, rgba(0, 225, 255, 0.5) 100%);
+}
+
+
+/* hero buynow button animation keyframe */
+
+@keyframes rotate-gradient {
+  0% {
+    background-position: 0% 20%;
+  }
+  25% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-rotate-gradient {
+  background: conic-gradient(from 90deg, #ED00FF 0%, #00E1FF 37%, #FEAB1D 57%, #ED00FF 100%);
+  background-size: 200% 200%;
+  animation: rotate-gradient 2s linear infinite;
+}
+
+
+
+/* animation startegic */
+
+#tokenstra {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+  perspective: 1200px; /* Adds depth to the 3D space */
+}
+
+.partner-image {
+  opacity: 0;
+  transform: scale(0.8) translateY(20px); /* Initial position with slight downward offset */
+  animation: slideInUp 0.8s forwards;
+}
+
+/* Animation for images */
+@keyframes slideInUp {
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0 ); /* Final position with full opacity and no offset */
+  }
+}
+
+#tokenstra .partner-image:nth-child(1) {
+  transform: rotateY(-45deg) translateZ(0);
+  animation-delay: 0s;
+}
+
+#tokenstra .partner-image:nth-child(2) {
+  transform: rotateY(-30deg) translateZ(0);
+  animation-delay: 0.2s;
+}
+
+#tokenstra .partner-image:nth-child(3) {
+  transform: rotateY(0deg) translateZ(0); /* Center image */
+  animation-delay: 0.4s;
+}
+
+#tokenstra .partner-image:nth-child(4) {
+  transform: rotateY(30deg) translateZ(0);
+  animation-delay: 0.6s;
+}
+
+#tokenstra .partner-image:nth-child(5) {
+  transform: rotateY(45deg) translateZ(0);
+  animation-delay: 0.8s;
+}
+
+/* animation startegic end */
+
+/* topggle popup */
+
+/* Add this CSS to handle the popup overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #090909;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.bg-header-background {
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+/* loader loading */
+
+
+
+#load {
+  position:absolute;
+  width:600px;
+  height:36px;
+  left:50%;
+  top:40%;
+  margin-left:-300px;
+  overflow:visible;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:default;
+}
+
+#load div {
+  position:absolute;
+  width:20px;
+  height:36px;
+  opacity:0;
+  font-family:Helvetica, Arial, sans-serif;
+  animation:move 2s linear infinite;
+  -o-animation:move 2s linear infinite;
+  -moz-animation:move 2s linear infinite;
+  -webkit-animation:move 2s linear infinite;
+  transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  color:#ffdd00;
+}
+
+#load div:nth-child(2) {
+  animation-delay:0.2s;
+  -o-animation-delay:0.2s;
+  -moz-animation-delay:0.2s;
+  -webkit-animation-delay:0.2s;
+}
+#load div:nth-child(3) {
+  animation-delay:0.4s;
+  -o-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+}
+#load div:nth-child(4) {
+  animation-delay:0.6s;
+  -o-animation-delay:0.6s;
+  -moz-animation-delay:0.6s;
+  -webkit-animation-delay:0.6s;
+}
+#load div:nth-child(5) {
+  animation-delay:0.8s;
+  -o-animation-delay:0.8s;
+  -moz-animation-delay:0.8s;
+  -webkit-animation-delay:0.8s;
+}
+#load div:nth-child(6) {
+  animation-delay:1s;
+  -o-animation-delay:1s;
+  -moz-animation-delay:1s;
+  -webkit-animation-delay:1s;
+}
+#load div:nth-child(7) {
+  animation-delay:1.2s;
+  -o-animation-delay:1.2s;
+  -moz-animation-delay:1.2s;
+  -webkit-animation-delay:1.2s;
+}
+
+@keyframes move {
+  0% {
+    left:0;
+    opacity:0;
+  }
+	35% {
+		left: 41%; 
+		-moz-transform:rotate(0deg);
+		-webkit-transform:rotate(0deg);
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-moz-transform:rotate(0deg); 
+		-webkit-transform:rotate(0deg); 
+		-o-transform:rotate(0deg);
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	100% {
+		left:100%; 
+		-moz-transform:rotate(-180deg); 
+		-webkit-transform:rotate(-180deg); 
+		-o-transform:rotate(-180deg); 
+		transform:rotate(-180deg);
+		opacity:0;
+	}
+}
+
+@-moz-keyframes move {
+	0% {
+		left:0; 
+		opacity:0;
+	}
+	35% {
+		left:41%; 
+		-moz-transform:rotate(0deg); 
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-moz-transform:rotate(0deg); 
+		transform:rotate(0deg);
+		opacity:1;
+	}
+	100% {
+		left:100%; 
+		-moz-transform:rotate(-180deg); 
+		transform:rotate(-180deg);
+		opacity:0;
+	}
+}
+
+@-webkit-keyframes move {
+	0% {
+		left:0; 
+		opacity:0;
+	}
+	35% {
+		left:41%; 
+		-webkit-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-webkit-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	100% {
+		left:100%;
+		-webkit-transform:rotate(-180deg); 
+		transform:rotate(-180deg); 
+		opacity:0;
+	}
+}
+
+@-o-keyframes move {
+	0% {
+		left:0; 
+		opacity:0;
+	}
+	35% {
+		left:41%; 
+		-o-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	65% {
+		left:59%; 
+		-o-transform:rotate(0deg); 
+		transform:rotate(0deg); 
+		opacity:1;
+	}
+	100% {
+		left:100%; 
+		-o-transform:rotate(-180deg); 
+		transform:rotate(-180deg); 
+		opacity:0;
+	}
+}

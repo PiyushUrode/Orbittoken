@@ -1,0 +1,84 @@
+function Presale() {
+  return (
+    <>
+      <div id="presale" className="flex justify-center ">
+      <div className="flex justify-center items-center min-h-screen w-full" id="presale">
+            <div className="mx-2 sm:mx-5 md:mx-10 lg:mx-20 xl:mx-20 mt-10 md:mt-20 my-10 w-full max-w-4xl p-4">
+                <div className="flex flex-col md:flex-row gap-10 md:gap-0 md:justify-between text-center md:text-start">
+
+                    {/* 2nd column */}
+                    <div className="mx-5 md:w-[40%] border border-[#feab1dbf] rounded-lg shadow-md shadow-[#FEAB1D] text-center">
+                        <div className="bg-[#2E2921] rounded-lg p-2 lg:p-6 w-full">
+                            <div className="font-gugi text-xl sm:text-2xl md:text-3xl mb-2">BING VEGAS TOKEN</div>
+                            <p className="text-sm sm:text-md md:text-lg font-normal mb-2">Grab the deal Buy new BVEGAS</p>
+
+                            {/* progress bar */}
+                            <div className="bg-[#535353] rounded-lg h-6 mb-4">
+                                <div className="bg-gradient-to-r from-[#FEAB1D] to-[#ffed49] h-6 rounded-lg flex items-center justify-center w-[55%]">
+                                    <span className="text-black text-sm font-medium">55%</span>
+                                </div>
+                            </div>
+
+                            {/* current price & next price */}
+                            <div className="flex justify-between text-white text-sm mb-6">
+                                <div>Current price: <span>$0.20</span></div>
+                                <div>Next price: <span>$0.40</span></div>
+                            </div>
+                        </div>
+
+                        {/* payment options */}
+                        <div>
+                            <p className="font-bold mt-2 mb-2">You can buy with</p>
+                            <div className="flex justify-center space-x-4 mb-6">
+                                <button className="bg-[#2E2921] text-white py-2 px-4 rounded-lg flex items-center space-x-2">
+                                    <img src="/" alt="USDT" className="h-5 w-5" />
+                                    <span className="font-medium">USDT</span>
+                                </button>
+                                <button className="bg-[#2E2921] text-white py-2 px-4 rounded-lg flex items-center space-x-2">
+                                    <img src="/" alt="BNB" className="h-5 w-5" />
+                                    <span className="font-medium">BNB</span>
+                                </button>
+                            </div>
+
+                            {/* input fields */}
+
+                            <p className="font-bold mt-2 mb-2">Buy BVEGAS token Here</p>
+                            <div className="flex justify-between gap-2 mx-2 mb-4">
+                                <div className="flex-1">
+                                    <p className="text-sm text-start">You will pay</p>
+                                    <input
+                                        type="text"
+                                        placeholder="Enter USDT Amount"
+                                        className="bg-[#2E2921] w-full py-2 px-4 rounded-lg text-white outline-none"
+                                    />
+                                </div>
+                                <div className="flex-1">
+                                    <p className="text-sm text-end">You will Get</p>
+                                    <input
+                                        type="text"
+                                        placeholder="Enter BVEGAS Amount"
+                                        className="bg-[#2E2921] w-full py-2 px-4 rounded-lg text-white outline-none"
+                                    />
+                                </div>
+                            </div>
+
+                            {/* buttons */}
+                                <div className="flex mb-2 bg-[#2E2921] p-3 mx-2 rounded-lg justify-between gap-2">
+                                    <button className="bg-gradient-to-r from-[#FFA100] via-[#FFE488] to-[#F89D00] text-[#303030] font-bold py-1 px-2 lg:py-2 lg:px-6 shadow-sm shadow-white button-cliped font-istokweb">
+                                        Connect Wallet
+                                    </button>
+                                    <button className="bg-white text-[#303030] font-bold py-1 px-2 lg:py-2 lg:px-6 button-cliped font-istokweb">
+                                        BUY NOW
+                                    </button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default Presale;

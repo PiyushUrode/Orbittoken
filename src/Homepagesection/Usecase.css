@@ -1,0 +1,69 @@
+/* Common styles for both buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 50px; 
+
+  height: 50px; 
+  border: 2px solid white;  /* White border */
+  border-radius: 50%; /* Circular shape */
+  background-color: rgba(0, 0, 0, 0.94); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  color: red;
+}
+
+/* Hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgb(101, 3, 3);
+  border-color: #ff5733; /* Change border on hover */
+}
+
+/* Change default arrow icons */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: ''; /* Remove default Swiper arrow */
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Custom Previous Arrow */
+.swiper-button-prev::after {
+  background-image: url('../assets/swipper/buttonleft.svg'); /* Replace with your left arrow icon */
+}
+
+/* Custom Next Arrow */
+.swiper-button-next::after {
+  background-image: url('../assets/swipper/buttonright.svg'); /* Replace with your right arrow icon */
+}
+
+
+/* Default Pagination Bullets */
+.swiper-pagination-bullet {
+    width: 14px;
+    height: 14px;
+    background-color: #ccc; /* Default color */
+    border-radius: 50%;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Active Pagination Bullet */
+  .swiper-pagination-bullet-active {
+    background-color: #ff5733; /* Active color */
+    width: 18px; /* Larger size for active bullet */
+    height: 18px;
+    border: 2px solid white;
+  }
+  
+  /* Custom Positioning of Pagination */
+  .swiper-pagination {
+    bottom: 15px !important; /* Adjust position */
+    text-align: center;
+  }
+  

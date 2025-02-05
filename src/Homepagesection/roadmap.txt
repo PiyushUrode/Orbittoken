@@ -1,0 +1,664 @@
+import React, { useEffect } from "react";
+import "../App.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import roadmapvideo from "../assets/video/roadmapvideo.mp4";
+import str1img from "../assets/partners/Logo-01.svg";
+import str2img from "../assets/partners/Logo-02.svg";
+import str3img from "../assets/partners/Logo-03.svg";
+import str4img from "../assets/partners/Logo-04.svg";
+import str5img from "../assets/partners/Logo-05.svg";
+
+// import arrowleft from "../Images/usecase/arrow1.svg"
+// import arrowright from "../Images/usecase/arrow2.svg"
+
+const Roadmap = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1200, easing: "ease-out-cubic", once: true });
+  }, []);
+  return (
+    <>
+      {/* copy */}
+      <section id="roadmap" className="">
+        {/* <video
+                      className="absolute top-0 left-0 w-full h-full object-cover   opacity-20 "
+                      src={roadmapvideo}
+                      autoPlay
+                      loop
+                      muted
+                      playsInline
+                    ></video> */}
+
+        <div
+          className="flex flex-col items-center justify-center text-center bg-[#000000] py-10 "
+          id="token"
+        >
+          <div className="w-full ">
+            <h2 className="font-semibold bg-text-custom-gradient font-KohSantepheap bg-clip-text text-transparent mt-4 text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+              Orbit Token Roadmap
+            </h2>
+          </div>
+        </div>
+        <div id="" className=" relative flex  flex-col  border-2">
+          <div>
+            <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid ">
+              {/* First Roadmap Item */}
+              {/* First Roadmap Item */}
+
+              {/* herer first */}
+              {/* Section 1 */}
+              <div className="flex   md:contents" data-aos="fade-up">
+                <div className="  hidden md:block  relative  my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal justify-items-center justify-center align-middle text-center h-auto ">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase1
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      Token Development and Launch (Q1 2025){" "}
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="relative col-start-5 col-end-6 mr-3 md:mx-auto"
+                  data-aos-delay="200"
+                >
+                  <div className="flex relative items-center justify-center w-6 h-full">
+                    {/* Circle at the top center */}
+                    <div
+                      className="w-2 h-2 p-4 absolute top-0 left-1/2 transform -translate-x-1/2 rounded-full bg-[#00FFED] "
+                      id="circle"
+                    ></div>
+
+                    <div
+                      className="w-2 h-2 p-4 absolute bottom-0 left-1/2 transform -translate-x-1/2 rounded-full bg-[#A50093] "
+                      id="circle"
+                    ></div>
+
+                    {/* Vertical line */}
+                    <div className="w-[0.4rem] h-full 2xl:w-[0.4vw] bg-text-custom-gradient"></div>
+                  </div>
+                </div>
+
+                <div
+                  className="Sregular flex    h-fit max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
+                    <p
+                      className="leading-6 block md:hidden font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 2: Token Launch (2024)
+                    </p>
+                    {/* List of steps */}
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="800"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        Develop ORB on TRC-20.{" "}
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1000"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        . Launch wallet via Trust Wallet.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1200"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Launch website and social media.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1400"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Conduct ICO for funds and awareness.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1600"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]"> List ORB on DEXs.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section 2 */}
+              <div className="flex md:contents flex-row-reverse">
+                <div className="h-fit relative flex tablet:flex-col max-w-[35rem] my-10 tablet:my-5 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
+                  <div
+                    className="Sregular h-fit flex flex-col gap-5 rounded-xl roadmap-shadow tracking-wider border-2 p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <p
+                      className="leading-6 md:hidden block  font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 1: Token Development and Launch (Q1 2025)
+                    </p>
+                    <div className="flex flex-col gap-4">
+                      <div
+                        className="flex gap-2 "
+                        data-aos="fade-up"
+                        data-aos-delay="800"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Gaming Ecosystem: Partner with gaming platforms for
+                          ORB adoption, in-game purchases, P2E rewards, and
+                          competitions.
+                        </p>
+                      </div>
+                      <div
+                        className="flex gap-2"
+                        data-aos="fade-up"
+                        data-aos-delay="1000"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Payments: Develop APIs for global gateways and launch
+                          P2P transactions.
+                        </p>
+                      </div>
+                      <div
+                        className="flex gap-2"
+                        data-aos="fade-up"
+                        data-aos-delay="1200"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          DeFi: Enable staking, yield farming, and ORB liquidity
+                          pools.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative col-start-5 col-end-6 mr-3 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div
+                      className="w-[0.4rem] h-full bg-indigo-300 2xl:w-[0.4vw]"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
+                      }}
+                    ></div>
+                    <div
+                      className="w-2 h-2 p-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 rounded-full shadow-custom-drop2"
+                      id="circle"
+                    ></div>
+                  </div>
+                </div>
+                <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase2
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      Ecosystem Integration and Expansion (Q2-Q3 2025)
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section 3 */}
+              <div className="flex   md:contents" data-aos="fade-up">
+                <div className="  hidden md:block  relative  my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal justify-items-center justify-center align-middle text-center h-auto ">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase3
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      E-Commerce and NFT Marketplace (Q4 2025)
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="relative col-start-5 col-end-6 mr-3 md:mx-auto"
+                  data-aos-delay="200"
+                >
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div
+                      className="w-[0.4rem] h-full bg-indigo-300 2xl:w-[0.4vw]"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
+                      }}
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  className="Sregular flex    h-fit max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
+                    <p
+                      className="leading-6 block md:hidden font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 2: Token Launch (2024)
+                    </p>
+                    {/* List of steps */}
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="800"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        E-Commerce: Partner with platforms to accept ORB and
+                        offer loyalty/cashback programs.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1000"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        NFT Marketplace: Launch a marketplace for minting,
+                        trading, and exclusive collections with ORB.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section 4 */}
+              <div className="flex md:contents flex-row-reverse">
+                <div className="h-fit relative flex tablet:flex-col max-w-[35rem] my-10 tablet:my-5 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
+                  <div
+                    className="Sregular h-fit flex flex-col gap-5 rounded-xl roadmap-shadow tracking-wider border-2 p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <p
+                      className="leading-6 md:hidden block  font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 1: Token Development and Launch (Q1 2025)
+                    </p>
+                    <div className="flex flex-col gap-4">
+                      <div
+                        className="flex gap-2 "
+                        data-aos="fade-up"
+                        data-aos-delay="800"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Develop and release the Orbit Wallet for secure
+                          storage and management of ORB tokens.
+                        </p>
+                      </div>
+                      <div
+                        className="flex gap-2"
+                        data-aos="fade-up"
+                        data-aos-delay="1000"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Features: multi-asset support, staking options, and
+                          DeFi integration.
+                        </p>
+                      </div>
+                      <div
+                        className="flex gap-2"
+                        data-aos="fade-up"
+                        data-aos-delay="1200"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Mobile app release for Android and iOS platforms.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative col-start-5 col-end-6 mr-3 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div
+                      className="w-[0.4rem] h-full bg-indigo-300 2xl:w-[0.4vw]"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
+                      }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase4
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      Own Wallet Development (Q1-Q2 2026){" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section 5 */}
+              <div className="flex   md:contents" data-aos="fade-up">
+                <div className="  hidden md:block  relative  my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal justify-items-center justify-center align-middle text-center h-auto ">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase5
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      Own Blockchain Development (Q3 2026-Q1 2027){" "}
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  className="relative col-start-5 col-end-6 mr-3 md:mx-auto"
+                  data-aos-delay="200"
+                >
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div
+                      className="w-[0.4rem] h-full bg-indigo-300 2xl:w-[0.4vw]"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
+                      }}
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  className="Sregular flex    h-fit max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
+                    <p
+                      className="leading-6 block md:hidden font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 2: Token Launch (2024)
+                    </p>
+                    {/* List of steps */}
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="800"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Expand partnerships in gaming, e-commerce, and fintech.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1000"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Integrate ORB into metaverse economies.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1200"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Promote ORB as a global payment solution.{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section 6 */}
+              <div className="flex md:contents flex-row-reverse">
+                <div className="h-fit relative flex tablet:flex-col max-w-[35rem] my-10 tablet:my-5 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
+                  <div
+                    className="Sregular h-fit flex flex-col gap-5 rounded-xl roadmap-shadow tracking-wider border-2 p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]"
+                    data-aos="fade-up"
+                    data-aos-delay="400"
+                  >
+                    <p
+                      className="leading-6 md:hidden block  font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 6: Global Adoption and Advanced Integration (Q2-Q4
+                      2027){" "}
+                    </p>
+                    <div className="flex flex-col gap-4">
+                      <div
+                        className="flex gap-2 "
+                        data-aos="fade-up"
+                        data-aos-delay="800"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Expand partnerships in gaming, e-commerce, and
+                          fintech.
+                        </p>
+                      </div>
+                      <div
+                        className="flex gap-2"
+                        data-aos="fade-up"
+                        data-aos-delay="1000"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Integrate ORB into metaverse economies.
+                        </p>
+                      </div>
+                      <div
+                        className="flex gap-2"
+                        data-aos="fade-up"
+                        data-aos-delay="1200"
+                      >
+                        <p className="font-bold">✧</p>
+                        <p className="2xl:text-[1.12vw]">
+                          {" "}
+                          Promote ORB as a global payment solution.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative col-start-5 col-end-6 mr-3 md:mx-auto">
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div
+                      className="w-[0.4rem] h-full bg-indigo-300 2xl:w-[0.4vw]"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
+                      }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase6{" "}
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      Global Adoption and Advanced Integration (Q2-Q4 2027){" "}
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section 7 */}
+              <div className="flex   md:contents" data-aos="fade-up">
+                <div className="  hidden md:block  relative  my-10 col-start-1 col-end-5 mr-auto md:mr-0 md:ml-auto tracking-normal justify-items-center justify-center align-middle text-center h-auto ">
+                  <div className="flex flex-col  w-[60%]  justify-items-center justify-center align-middle text-center h-[100%] ">
+                    <h1 className="bg-text-custom-gradient bg-clip-text text-transparent pb-2 text-4xl font-bold ">
+                      {" "}
+                      Phase7{" "}
+                    </h1>
+                    <p className="text-2xl text-white font-medium  ">
+                      Long-Term Sustainability (2028 and Beyond){" "}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="relative col-start-5 col-end-6 mr-3 md:mx-auto"
+                  data-aos-delay="200"
+                >
+                  <div className="flex items-center justify-center w-6 h-full">
+                    <div
+                      className="w-[0.4rem] h-full bg-indigo-300 2xl:w-[0.4vw]"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
+                      }}
+                    ></div>
+                  </div>
+                </div>
+                <div className="Sregular flex    h-fit max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <div className="flex flex-col gap-5 rounded-xl roadmap-shadow border-2 tracking-wider p-6 2xl:p-[1.5vw] 2xl:rounded-[1vw] 2xl:gap-[1.3vw]">
+                    <p
+                      className="leading-6 block md:hidden font-bold text-xl 2xl:text-[1.3vw]"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      Phase 7: Long-Term Sustainability (2028 and Beyond)
+                    </p>
+                    {/* List of steps */}
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="800"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Innovate in blockchain and dApps.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1000"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Build a developer community.
+                      </p>
+                    </div>
+                    <div
+                      className="flex gap-2"
+                      data-aos="fade-up"
+                      data-aos-delay="1200"
+                    >
+                      <p className="font-bold">✧</p>
+                      <p className="2xl:text-[1.12vw]">
+                        {" "}
+                        Drive ORB adoption through marketing and education.{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <div className="flex flex-col items-center text-center py-5 px-2 md:px-20">
+        <div className="text-3xl md:text-5xl font-bold tracking-normal w-full mb-6">
+          <h1 className="font-semibold bg-text-custom-gradient font-KohSantepheap  bg-clip-text text-transparent">
+            Strategic Partners
+          </h1>
+        </div>
+        <div className="w-full p-0.5  bg-text-custom-gradient">
+          <div
+            className="flex justify-between bg-black align-middle phone:justify-center phone:gap-1  flex-wrap items-center gap-4 w-full overflow-x-auto px-24 tablet:px-12 phone:gap-5 phone:px-0 "
+            id="img-section"
+          >
+            <img
+              src={str1img}
+              alt="Strategic Partner 1"
+              className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+            />
+            <img
+              src={str2img}
+              alt="Strategic Partner 2"
+              className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+            />
+            <img
+              src={str3img}
+              alt="Strategic Partner 3"
+              className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+            />
+            <img
+              src={str4img}
+              alt="Strategic Partner 4"
+              className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+            />
+            <img
+              src={str5img}
+              alt="Strategic Partner 4"
+              className="h-20 w-20 sm:h-36 sm:w-36 md:h-36 md:w-36 lg:h-40 lg:w-40 object-contain"
+            />
+          </div>
+        </div>
+      </div> */}
+    </>
+  );
+};
+
+export default Roadmap;
