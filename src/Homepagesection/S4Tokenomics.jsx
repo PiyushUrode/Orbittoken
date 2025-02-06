@@ -11,7 +11,7 @@ const S4Tokenomics = memo(function S4Tokenomics() {
 
 
       <div
-        className=" token flex flex-col items-center  relative  relative justify-center text-center pt-0 md:pt-10"
+        className=" token flex flex-col items-center  relative  relative justify-center text-center pt-0 md:py-10"
         id="token"
       >
         <div className="w-full relative gap-10 flex flex-col  ">

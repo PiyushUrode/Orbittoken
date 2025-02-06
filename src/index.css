@@ -4,7 +4,7 @@
 
 
 :root {
-  font-family: gilroy;
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -12,15 +12,92 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #000000;
 
-  --w3m-accent-color: #f019de !important;
-  --w3m-accent-color:#41d3c5 !important ;
-  --w3m-background-color: #f019de  !important;
+  --w3m-accent-color: #41d3c5 !important;
+  --w3m-background-color: #f019de !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../src/assets/font/gilroy/Gilroy-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../src/assets/font/gilroy/Gilroy-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../src/assets/font/gilroy/Gilroy-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../src/assets/font/gilroy/Gilroy-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../src/assets/font/titillium/TitilliumWeb-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../src/assets/font/titillium/TitilliumWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../src/assets/font/titillium/TitilliumWeb-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../src/assets/font/titillium/TitilliumWeb-Bold.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  color: #C7C7C7;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Gilroy', sans-serif;
+  color: #C7C7C7;
+  line-height: 1.6;
+  font-weight: 600;
+
+  word-spacing: 0.1em;
+}
+
+p {
+  font-family: 'Titillium Web', sans-serif;
+  color: #C7C7C7;
+  line-height: 1.6;
+  word-spacing: 0.1em;
+}
+
 
 html, body {
   margin: 0;
@@ -38,6 +115,10 @@ html {
 body {
   overflow-x: hidden;
 }
+button, span {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+}
 
 
 #root {
@@ -46,82 +127,6 @@ body {
   min-height: 100vh;
 }
 
-
-@font-face {
-  font-family: 'gilroy';
-  font-weight: 400; /* Regular weight */
-  font-style: normal;
-  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Light.ttf') format('truetype');
-}
-
-
-@font-face {
-  font-family: 'gilroy';
-  font-weight: 500; /* Regular weight */
-  font-style: normal;
-  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Medium.ttf') format('truetype');
-}
-
-
-@font-face {
-  font-family: 'gilroy';
-  font-weight: 600; /* Regular weight */
-  font-style: normal;
-  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Bold.ttf') format('truetype');
-}
-
-
-@font-face {
-  font-family: 'gilroy';
-  font-weight: 700; /* Regular weight */
-  font-style: normal;
-  src: url('../src/assets/font/gilroy-bold-webfont/Gilroy-Heavy.ttf.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Titillium_Web';
-  font-weight: 400; /* Bold weight */
-  font-style: normal;
-  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Titillium_Web';
-  font-weight: 500; /* Bold weight */
-  font-style: normal;
-  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Titillium_Web';
-  font-weight: 600; /* Bold weight */
-  font-style: normal;
-  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Titillium_Web';
-  font-weight: 700; /* Bold weight */
-  font-style: normal;
-  src: url('../src/assets/font/tittilum/Titillium_Web/TitilliumWeb-Bold.ttf') format('truetype');
-}
-
-
-
-
-h1 , h2,  h3 , h4 , h5  {
-  font-family: 'gilroy', sans-serif;
-  color: #C7C7C7; /* Paragraph color */
-  line-height: 1.6; /* Adjust line-height as needed */
-  word-spacing: 0.1em; /* Adjust word-spacing as needed */
-}
-             p {
-              font-family: 'Titillium_Web', sans-serif;
-              color: #C7C7C7; /* Paragraph color */
-              line-height: 1.6; /* Adjust line-height as needed */
-              word-spacing: 0.1em; /* Adjust word-spacing as needed */
-            }
-    
 
 
 .content {

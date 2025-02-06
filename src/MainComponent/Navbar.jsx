@@ -81,18 +81,18 @@ const Navbar = () => {
             </a>
           </div> */}
 
-          <div className="flex gap-3 sm:gap-1   items-center">
+          <div className="flex gap-3 sm:gap-1   items-center ">
           <Link smooth to="/" onClick={closeMenu}>
            
-                        <div className="flex sm:flex-row flex-col gap-5 md:gap-10 justify-center md:justify-start">
+                        <div className="flex sm:flex-row rounded-xl flex-col gap-5 md:gap-10 justify-center md:justify-start">
                   <button
 
-                    className="relative sm:px-20 sm:py-5  px-12 py-1 font-KohSantepheap font-bold shadow-md  shadow-[#ffffff8e] text-white border border-white  h-9 sm:h-full"
+                    className="relative sm:px-20 rounded-lg  sm:py-5  px-12 py-1 font-gilroy font-bold shadow-md  shadow-[#ffffff8e] rounded-md  text-white    h-9 sm:h-full"
                     onClick={() => navigate("/")}
                   >
-                    <span className="absolute inset-0 p-px flex items-center justify-center ">
-                    <span className="font-Titillium_Web font-bold shadow-md shadow-[#ffffff8e] px-2 py-2 sm:py-2 sm:px-8 sm:text-sm text-white bg-button-custom-gradient w-full h-9 sm:h-full text-sm border-2 border-transparent 
-  hover:animate-popup hover:shadow-sm hover:shadow-[#ffffff] hover:focus:ring hover:focus:ring-offset-2 focus:ring-[#ffffff8e]">
+                    <span className="absolute inset-0 p-px flex items-center rounded-lg  justify-center rounded-md">
+                    <span className=" font-bold shadow-md rounded-lg shadow-[#ffffff8e] px-2 py-2 sm:py-2 sm:px-8 sm:text-sm text-white bg-button-custom-gradient w-full h-9 sm:h-full text-sm  
+  hover:animate-popup hover:shadow-sm hover:shadow-[#ffffff] hover:focus:ring hover:focus:ring-offset-2 focus:ring-[#ffffff8e] rounded-md ">
   BUY NOW
 </span>
 

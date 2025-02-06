@@ -75,6 +75,9 @@ export default {
 
        
       },
+      backgroundSize: {
+        "200%": "200% 100%",
+      },
 
 
       scrollbar: {

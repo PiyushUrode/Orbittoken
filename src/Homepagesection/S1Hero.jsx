@@ -2,7 +2,7 @@ import { useEffect, memo } from "react";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
+import "../hero.css"
 import homevideo from "../assets/hero/0_Space_Galaxy_1080x1920.mp4";
 import homevideo2 from "../assets/hero/zsae.mp4";
 
@@ -47,39 +47,43 @@ const S1Hero = memo(function S1Hero() {
   id="home"
   className="relative z-10 min-h-screen flex items-center justify-center px-5 sm:px-10 py-10"
 >
-  <div className="w-full max-w-[60vw] text-center md:text-left">
-    <div className="relative text-center align-middle justify-center   md:px-10 md:py-10 flex flex-col gap-6 md:gap-10">
+  <div className="w-full  max-w-[90vw]  md:max-w-[80vw]  lg:max-w-[60vw] text-center md:text-left">
+    <div className="relative text-center align-middle justify-center px-0  md:px-10 md:py-10 flex flex-col gap-6 md:gap-10">
       <h1
         data-aos="fade-up"
-        className="text-2xl sm:text-3xl  md:text-4xl lg:text-5xl font-gilroy font-semibold text-white uppercase leading-snug md:leading-tight"
+        className="text-4xl sm:text-3xl  md:text-4xl lg:text-5xl font-gilroy font-semibold text-white  leading-tight md:leading-relaxed"
       >
       Welcome to <span className="bg-text-custom-gradient bg-clip-text text-transparent"> Orbit Token</span>
       </h1>
       <p
         data-aos="fade-up"
         data-aos-delay="200"
-        className="text-base    sm:text-xl  lg:text-xl  text-center align-middle justify-center leading-relaxed text-gray-300 font-Titillium_Web"
+        className="text-sm     sm:text-xl  lg:text-xl  text-center align-middle justify-center lg:px-10 leading-relaxed text-gray-300 font-Titillium_Web"
       >
-ORB: Powering gaming, DeFi, e-commerce, and NFTs. Seamless, secure, and borderless—join the decentralized future today!
+Powering the next generation of gaming, DeFi, e-commerce, and NFTs, ORB is your gateway to a seamless, secure, and borderless digital economy. Designed for scalability and efficiency, ORB revolutionizes digital transactions, enabling fast and secure payments, immersive gaming rewards, and limitless NFT interactions.
       </p>
 
       <div className="flex flex-col text-center align-middle justify-center  sm:flex-row gap-5 md:gap-10 justify-center ">
         <button
           data-aos="zoom-in"
           data-aos-delay="600"
-          className="relative px-10 sm:px-20 py-4 sm:py-5 font-gilroy font-bold text-white border border-white"
+          className="relative px-10 sm:px-20 py-4 sm:py-5 font-gilroy font-bold text-white rounded-md "
         >
-          <span className="absolute inset-0 p-px flex items-center justify-center">
-            <span className="absolute inset-0 bg-black bg-button-custom-gradient flex items-center justify-center">
+          <span className="absolute inset-0 p-px flex items-center justify-center rounded-md ">
+            <span className="absolute inset-0 bg-black bg-button-custom-gradient flex items-center justify-center rounded-md ">
               Buy Now
             </span>
           </span>
         </button>
 
+
+
         <div
           data-aos="zoom-in"
           data-aos-delay="600"
-          className="relative px-10 sm:px-20 py-4 sm:py-5 text-yellow-400 font-gilroy border-2 border-[#00C6FF]"
+          className="relative px-10 sm:px-20 py-4 sm:py-5 text-yellow-400 font-gilroy rounded-md border-2 border-[#00C6FF] hover:bg-button-custom-gradient 
+          bg-[length:200%_100%] bg-left transition-all duration-500 hover:bg-right
+          "
         >
           <span className="absolute inset-0 p-px flex items-center justify-center">
             <a
@@ -92,6 +96,11 @@ ORB: Powering gaming, DeFi, e-commerce, and NFTs. Seamless, secure, and borderle
             </a>
           </span>
         </div>
+
+
+        
+
+
       </div>
     </div>
   </div>

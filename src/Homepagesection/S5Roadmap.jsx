@@ -7,6 +7,7 @@ import str2img from "../assets/partners/Logo-02.svg";
 import str3img from "../assets/partners/Logo-03.svg";
 import str4img from "../assets/partners/Logo-04.svg";
 import str5img from "../assets/partners/Logo-05.svg";
+import CustomCursor from "../MainComponent/CustomCusor";
 
 // import arrowleft from "../Images/usecase/arrow1.svg"
 // import arrowright from "../Images/usecase/arrow2.svg"
@@ -18,7 +19,9 @@ const Roadmap = () => {
   return (
     <>
       {/* copy */}
-      <section id="roadmap" className=" relative">
+      <section id="roadmap" className=" relative cursor-none ">
+
+      <CustomCursor />
         <div> 
         <div className="absolute inset-0 w-full h-full">
     <video
@@ -239,10 +242,10 @@ const Roadmap = () => {
                           "linear-gradient(90deg, rgba(1,108,140,1) 0%, rgba(1,56,73,1) 50%, rgba(0,0,0,1) 100%)",
                       }}
                     ></div>
-                    <div
-                      className="w-2 h-2 p-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 rounded-full shadow-custom-drop2"
+                    {/* <div
+                      className="w-2 h-2 p-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 rounded-full shadow-custom-drop2 "
                       id="circle"
-                    ></div>
+                    ></div> */}
                   </div>
                 </div>
                 <div className="Sregular hidden md:block flex h-auto text-center align-middle  h-auto max-w-[35rem] flex flex-row-reverse tablet:flex-col relative my-10 tablet:my-5 rounded-xl col-start-6 col-end-10 mr-auto tracking-normal 2xl:max-w-[36.5vw] 2xl:my-[3vw] z-10">
@@ -737,6 +740,8 @@ const Roadmap = () => {
           </div>
         </div>
       </div>
+
+
     </>
   );
 };
