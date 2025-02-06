@@ -1,10 +1,12 @@
 import { HashLink as Link } from 'react-router-hash-link';
 import { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
 import logo from "../assets/logo/logo1.png";
 // import Popup from './Popupbuydog';
 
 const Navbar = () => {
+  const navigate = useNavigate();
   // const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isNavVisible, setIsNavVisible] = useState(false);
@@ -82,14 +84,13 @@ const Navbar = () => {
           </div> */}
 
           <div className="flex gap-3 sm:gap-1   items-center ">
-          <Link smooth to="/" onClick={closeMenu}>
+          <Link smooth to="/presale" onClick={closeMenu}>
            
                         <div className="flex sm:flex-row rounded-xl flex-col gap-5 md:gap-10 justify-center md:justify-start">
                   <button
 
                     className="relative sm:px-20 rounded-lg  sm:py-5  px-12 py-1 font-gilroy font-bold shadow-md  shadow-[#ffffff8e] rounded-md  text-white    h-9 sm:h-full"
-                    onClick={() => navigate("/")}
-                  >
+                    onClick={() => navigate("/presale")}  >
                     <span className="absolute inset-0 p-px flex items-center rounded-lg  justify-center rounded-md">
                     <span className=" font-bold shadow-md rounded-lg shadow-[#ffffff8e] px-2 py-2 sm:py-2 sm:px-8 sm:text-sm text-white bg-button-custom-gradient w-full h-9 sm:h-full text-sm  
   hover:animate-popup hover:shadow-sm hover:shadow-[#ffffff] hover:focus:ring hover:focus:ring-offset-2 focus:ring-[#ffffff8e] rounded-md ">

@@ -12,7 +12,7 @@ const chains = [bsc];
 const projectId = '';
 
 const metadata = {
-  name: 'LastStakeToken',
+  name: 'Orbit Token',
   description: '',
   url: '',
   icons: ['']

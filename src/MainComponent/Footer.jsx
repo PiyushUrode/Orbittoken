@@ -94,7 +94,7 @@ const Footer = () => {
         About Us
       </h2>
       <ul className="text-gray-400 font-medium flex flex-col gap-3">
-        <li className="text-center md:text-left"><a href="/">White Paper</a></li>
+        <li className="text-center md:text-left"><a  href="https://orbittoken.gitbook.io/laststake/">White Paper</a></li>
         <li className="text-center md:text-left"><a href="#token">Tokenomics</a></li>
       </ul>
     </div>

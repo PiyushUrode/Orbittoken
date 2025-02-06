@@ -118,7 +118,7 @@
   <div className="flex flex-col  relative md:flex-row items-center justify-center  p-0 lg:p-14">
   <div className="relative  flex w-full md:w-[70%]  ml-0 md:ml-20   flex-col md:flex-row  justify-center align-middle">
         {/* Image */}
-        <div className="absolute  top-0 left-[-50%] lg:left-[-40%]  xl:top-[-25%] xl:left-[-20%]   flex justify-center items-center">
+        <div className="absolute  top-0 left-[-55%] lg:left-[-50%]  xl:top-[-25%] xl:left-[-20%]   flex justify-center items-center">
           <img src={image} alt={title} className="w-[80%]      md:w-[50%] xl:w-[70%] h-auto  hidden md:block" />
         </div>
 

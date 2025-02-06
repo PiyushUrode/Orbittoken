@@ -6,6 +6,7 @@ import "../hero.css"
 import homevideo from "../assets/hero/0_Space_Galaxy_1080x1920.mp4";
 import homevideo2 from "../assets/hero/zsae.mp4";
 
+
 const S1Hero = memo(function S1Hero() {
   // Wrap in memo
   const navigate = useNavigate();
@@ -67,8 +68,8 @@ Powering the next generation of gaming, DeFi, e-commerce, and NFTs, ORB is your 
         <button
           data-aos="zoom-in"
           data-aos-delay="600"
-          className="relative px-10 sm:px-20 py-4 sm:py-5 font-gilroy font-bold text-white rounded-md "
-        >
+          className="relative px-10 sm:px-20 py-4 sm:py-5 font-gilroy font-bold text-white rounded-md hover:animate-popup-once "
+          onClick={() => navigate("/presale")}  >
           <span className="absolute inset-0 p-px flex items-center justify-center rounded-md ">
             <span className="absolute inset-0 bg-black bg-button-custom-gradient flex items-center justify-center rounded-md ">
               Buy Now
@@ -87,7 +88,7 @@ Powering the next generation of gaming, DeFi, e-commerce, and NFTs, ORB is your 
         >
           <span className="absolute inset-0 p-px flex items-center justify-center">
             <a
-              href="/"
+              href="https://orbittoken.gitbook.io/laststake/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#ffff] font-semibold uppercase"
