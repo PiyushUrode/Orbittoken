@@ -25,6 +25,7 @@
     "react-router-dom": "^6.28.0",
     "react-router-hash-link": "^2.4.3",
     "react-tilt": "^1.0.2",
+    "react-toastify": "^11.0.3",
     "reactjs-flip-card": "^2.0.3",
     "swiper": "^11.2.2",
     "tailwind-scrollbar": "^3.1.0",

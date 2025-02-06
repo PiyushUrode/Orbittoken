@@ -1,6 +1,16 @@
-#root {
-  max-width: 1400px;
-  margin: 0 auto;
-  /* padding: 2rem; */
+/* Change toast background to gradient and icon color to white */
+.Toastify__toast {
+  background: linear-gradient(90deg, #6D4CFF 0%, #00C6FF 100%) !important; /* Blue Gradient */
+  color: white !important; /* White text */
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 15px rgba(0, 114, 255, 0.4) !important;
+}
 
+.Toastify__progress-bar {
+  background: #fff !important; /* White Progress Bar */
+}
+
+.Toastify__toast-icon {
+  color: white !important; /* White icon color */
+  display: none;
 }

@@ -47,11 +47,11 @@ const S1Hero = memo(function S1Hero() {
   id="home"
   className="relative z-10 min-h-screen flex items-center justify-center px-5 sm:px-10 py-10"
 >
-  <div className="w-full  max-w-[90vw]  md:max-w-[80vw]  lg:max-w-[60vw] text-center md:text-left">
+  <div className="w-full  max-w-[90vw]  md:max-w-[80vw]  lg:max-w-[70vw] text-center md:text-left">
     <div className="relative text-center align-middle justify-center px-0  md:px-10 md:py-10 flex flex-col gap-6 md:gap-10">
       <h1
         data-aos="fade-up"
-        className="text-4xl sm:text-3xl  md:text-4xl lg:text-5xl font-gilroy font-semibold text-white  leading-tight md:leading-relaxed"
+        className="text-4xl sm:text-3xl  md:text-4xl lg:text-5xl xl:text-7xl font-gilroy font-semibold text-white  leading-tight md:leading-relaxed"
       >
       Welcome to <span className="bg-text-custom-gradient bg-clip-text text-transparent"> Orbit Token</span>
       </h1>
