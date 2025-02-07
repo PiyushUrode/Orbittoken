@@ -32,7 +32,7 @@ const S4Tokenomics = memo(function S4Tokenomics() {
             </div>
           </div>
 
-          <div className="flex justify-center align-middle px-10 ">
+          <div className="flex justify-center align-middle px-1 lg:px-10 ">
             <img
               src={Token1}
               loading="lazy"

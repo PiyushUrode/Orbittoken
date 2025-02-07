@@ -1,5 +1,6 @@
 import  { useEffect } from "react";
 import AOS from "aos";
+import "../Homepagesection/Roadmap.css"
 import "aos/dist/aos.css";
 import roadmapvideo from "../assets/video/roadmapvideo.mp4";
 import str1img from "../assets/partners/Logo-01.svg";
