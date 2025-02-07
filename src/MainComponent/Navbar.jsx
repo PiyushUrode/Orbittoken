@@ -191,7 +191,7 @@ const Navbar = () => {
 
             <li className="md:border-none  md:hidden border-b-[2px] border-[#6D4CFF]">
               <a   target="blank"
-              href="/"
+              href="https://orbittoken.gitbook.io/laststake/"
               rel="noopener noreferrer"
             onClick={closeMenu}>
                 <div className="font-normal block py-2 px-3 text-white font-semibold  hover:bg-gray-700 md:hover:bg-transparent md:p-0  hover:border-b-2 hover:border-[#6D4CFF] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-100  duration-300 
