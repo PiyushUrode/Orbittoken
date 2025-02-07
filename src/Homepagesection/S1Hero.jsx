@@ -88,7 +88,7 @@ Powering the next generation of gaming, DeFi, e-commerce, and NFTs, ORB is your 
         >
           <span className="absolute inset-0 p-px flex items-center justify-center">
             <a
-              href="https://orbittoken.gitbook.io/laststake/"
+              href="https://orbits-token.gitbook.io/orbits-token/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#ffff] font-semibold uppercase"
